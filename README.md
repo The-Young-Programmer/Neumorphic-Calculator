@@ -7,5 +7,5 @@ What is Neumorphic?
 Essentially, it's a new, minimal way to design with a soft, extruded plastic look.
 It's almost as if the interface has been vacuum-formed.
 
-check the link below to know more about Neumorphic 👇👇
+check the link below to know more about Neumorphic: 
 https://www.justinmind.com/blog/neumorphism-ui/
