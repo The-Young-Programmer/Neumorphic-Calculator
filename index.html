@@ -1,0 +1,80 @@
+
+<!--
+_______________________________________
+
+Author: NemoNet aka The Young Programmer 🏅
+Technologies: HTML, CSS & Javascript
+Code Editor: NemoNet Editor
+Date: Monday 3 May, 2021
+
+All thanks to @Chibuzor
+
+_______________________________________
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neumorphic  Calculator</title>
+    
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script> 
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<script>
+Swal.fire({
+  title: " Neumorphic Calculator ", 
+  text: " created by NemoNet aka The Young Programmer",
+  confirmButtonText: "OK",
+}).then((result) => {
+  if (result.isConfirmed) { 
+    Swal.fire(
+      ' ',  /* to make the title blank */
+      'kindly give me a star 🌟 if you like this code',
+    )
+  }
+})
+</script>
+
+    <main>
+        <div id="result_area">
+            <div id="history">
+                <p></p>
+            </div>
+            <div id="output">
+                <p></p>
+            </div>
+        </div>
+        <div class="keys">
+            <button class="op__key" id="clear">c</button>
+            <button class="op__key" id="backspace">del</button>
+            <button class="op__key" id="%">%</button>
+            <button class="op__key" id="/">&#247;</button>
+            <button class="num__key" id="7">7</button>
+            <button class="num__key" id="8">8</button>
+            <button class="num__key" id="9">9</button>
+            <button class="op__key" id="*">&times;</button>
+            <button class="num__key" id="4">4</button>
+            <button class="num__key" id="5">5</button>
+            <button class="num__key" id="6">6</button>
+            <button class="op__key" id="-">-</button>
+            <button class="num__key" id="1">1</button>
+            <button class="num__key" id="2">2</button>
+            <button class="num__key" id="3">3</button>
+            <button class="op__key" id="+">+</button>
+            <span class="empty"></span>
+            <button class="num__key" id="0">0</button>
+            <span class="empty"></span>
+            <button class="op__key" id="=">=</button>
+        </div>
+        <footer>
+            <p><em>Created by NemoNet @ May 2021</em></p>
+        </footer>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
